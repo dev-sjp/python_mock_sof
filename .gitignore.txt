@@ -1,0 +1,9 @@
+/.idea
+/deployment.txt
+/*.gitignore
+/common/__pycache__
+/common/migrations/__pycache__/*.pyc
+/config/__pycache__/*.pyc
+/pybo/__pycache__
+/pybo/migrations/__pycache__
+__pycache__
