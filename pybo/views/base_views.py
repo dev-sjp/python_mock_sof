@@ -5,6 +5,8 @@ from pybo.models import Question
 
 
 def index(request):
+
+    3 / 0
     # question_list = Question.objects.order_by('-create_date') # - means Descending
     # context = { 'question_list': question_list }
 

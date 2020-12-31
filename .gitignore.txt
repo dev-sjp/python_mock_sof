@@ -7,3 +7,4 @@
 /pybo/__pycache__
 /pybo/migrations/__pycache__
 __pycache__
+/logs
