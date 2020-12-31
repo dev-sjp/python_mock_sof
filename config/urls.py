@@ -18,6 +18,9 @@ from django.urls import path, include
 
 from pybo.views import base_views
 
+# 404 ERROR
+handler404 = 'common.views.page_not_found'
+
 urlpatterns = [
     path('admin/', admin.site.urls),
 
@@ -29,6 +32,5 @@ urlpatterns = [
 
     # -- common app (login, logout)
     path('common/', include('common.urls')),
-
 
 ]
